@@ -1,0 +1,98 @@
+---
+title: Terminology and Use cases for Secured Routing Infrastructure
+abbrev: nasr-names
+docname: draft-richardson-nasr-terminology-00
+
+stand_alone: true
+ipr: trust200902
+area: Internet
+wg: anima Working Group
+kw: Internet-Draft
+cat: std
+
+pi:    # can use array (if all yes) or hash here
+  toc: yes
+  sortrefs:   # defaults to yes
+  symrefs: yes
+
+author:
+
+
+- ins: M. Richardson
+  name: Michael Richardson
+  org: Sandelman Software Works
+  email: mcr+ietf@sandelman.ca
+
+- ins: C. Liu
+  name: Chunchi (Peter) Liu
+  org: Huawei Technologies
+  email: liuchunchi@huawei.com
+
+normative:
+  BCP14: RFC8174
+
+informative:
+
+contributor:
+  - name: Meiling Chen
+
+venue:
+  group: nasr
+  mail: nasr@ietf.org
+  github: mcr/nasr-terminology
+
+--- abstract
+
+This document collects terminology and use cases for Secured Routing.
+
+--- middle
+
+# Introduction
+
+This document collects terminology in use for various secured routing
+efforts.
+
+In addition, it may collect use cases that explain the terminology.
+
+This documents is not intended to ever be published.
+
+# Terminology
+
+{::boilerplate bcp14info}
+
+Secure routing:
+: A abstract term that applies to all of the various work at both control
+  plane and forwarding plane.
+
+Path Validation:
+: an examination of control plane messages (such as BGP) to validate that
+  the planned route is correct.
+
+Proof of Transit:
+: an examination of data plane messages to provide evidence that the planned
+  route was the one used
+
+Planned Route:
+: unsure
+
+# Use Cases
+
+TBD
+
+# Security Considerations
+
+Just words, no protocols in this document.
+
+# IANA Considerations
+
+This document makes no requests to IANA.
+
+# Acknowledgements
+
+Hello.
+
+# Changelog
+
+
+--- back
+
