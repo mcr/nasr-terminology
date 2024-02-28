@@ -1,12 +1,8 @@
-# ANIMA operational considerations for BRSKI Registrar
+# Network Attestation for Secure Routing (NASR) Terminology
 
-The ANIMA WG Bootstrapping Remote Secure Key Infrastructure (BRSKI)
-protocol involves three parties: Pledge (device), Registrar and
-Manufacturer Authorized Signing Authority (MASA).
+This repo is a starting point to keep track of well-defined terms relevant to NASR as discussed on the IETF nasr@ietf.org email list.
+https://www.ietf.org/mailman/listinfo/nasr
 
-This repository contains operational considerations for the Registrar
-function.  It is a candidate document for the ANIMA WG
-http://datatracker.ietf.org/wg/anima 
 
 
 
