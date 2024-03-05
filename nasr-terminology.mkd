@@ -81,6 +81,10 @@ Path Validation (POT):
 Planned Route:
 : unsure
 
+BGP Security:
+: (such as RPKI) concerns itself with the authenticity of route announcements
+rather than the trustworthiness of the network operating environment.
+
 # Use Cases
 
 TBD
