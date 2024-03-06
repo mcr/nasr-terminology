@@ -60,17 +60,23 @@ This documents is not intended to ever be published.
 
 {::boilerplate bcp14info}
 
-Secure routing:
-: A abstract term that applies to all of the various work at both control
-  plane and forwarding plane.
+BGP Security: 
+: Mechanisms and operational strategies such as RPKI and BGPSEC implemented to enhance the trustworthiness and robustness of BGP operations, including route origin authentication, AS path integrity validation and other approaches against prefix hijacking and route leaks.
 
-Path Validation:
-: an examination of control plane messages (such as BGP) to validate that
-  the planned route is correct.
+Routing Security: 
+: Achieving correct and secure reachability within and across networks by ensuring authentic and truthful distribution of routing information.
+
+Secure routing:
+: Defending data security by ensuring data transits only on trusted devices, trusted operating environments or trusted services.
+
+Path Validation (BGP):
+: an examination of control plane messages to validate that the planned route is correct.
 
 Proof of Transit:
-: an examination of data plane messages to provide evidence that the planned
-  route was the one used
+: Secure and verifiable logs or evidence of a packet's transit path in the data plane.   
+
+Path Validation (POT):
+: a verification of proof-of-transit against control plane information to validate if the packet was forwarded according to control plane path. 
 
 Planned Route:
 : unsure
