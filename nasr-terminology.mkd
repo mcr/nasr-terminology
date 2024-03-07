@@ -64,10 +64,10 @@ BGP Security:
 : Mechanisms and operational strategies such as RPKI and BGPSEC implemented to enhance the trustworthiness and robustness of BGP operations, including route origin authentication, AS path integrity validation and other approaches against prefix hijacking and route leaks.
 
 Routing Security: 
-: Achieving correct and secure reachability within and across networks by ensuring authentic and truthful distribution of routing information.
+: Achieving correct reachability within and across networks by ensuring authentic and truthful distribution of routing information.
 
 Secure routing:
-: Defending data security by ensuring data transits only on trusted devices, trusted operating environments or trusted services.
+: Protect data security by ensuring data transits only on trusted devices, trusted operating environments or trusted services.
 
 Path Validation (BGP):
 : an examination of control plane messages to validate that the planned route is correct.
