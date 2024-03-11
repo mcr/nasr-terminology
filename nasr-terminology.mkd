@@ -67,7 +67,7 @@ Routing Security:
 : Achieving correct reachability within and across networks by ensuring authentic and truthful distribution of routing information.
 
 Secure routing:
-: Protect data security by ensuring data transits only on trusted devices, trusted operating environments or trusted services.
+: Protect data security by ensuring data transits on trusted devices, trusted operating environments or trusted services.
 
 Path Validation (BGP):
 : an examination of control plane messages to validate that the planned route is correct.
