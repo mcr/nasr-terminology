@@ -60,10 +60,10 @@ This documents is not intended to ever be published.
 
 {::boilerplate bcp14info}
 
-BGP Security: 
+BGP Security:
 : Mechanisms and operational strategies such as RPKI and BGPSEC implemented to enhance the trustworthiness and robustness of BGP operations, including route origin authentication, AS path integrity validation and other approaches against prefix hijacking and route leaks.
 
-Routing Security: 
+Routing Security:
 : Achieving correct reachability within and across networks by ensuring authentic and truthful distribution of routing information.
 
 Secure routing:
@@ -73,10 +73,10 @@ Path Validation (BGP):
 : an examination of control plane messages to validate that the planned route is correct.
 
 Proof of Transit:
-: Secure and verifiable logs or evidence of a packet's transit path in the data plane.   
+: Secure and verifiable logs or evidence of a packet's transit path in the data plane.
 
 Path Validation (POT):
-: a verification of proof-of-transit against control plane information to validate if the packet was forwarded according to control plane path. 
+: a verification of proof-of-transit against control plane information to validate if the packet was forwarded according to control plane path.
 
 Planned Route:
 : unsure
